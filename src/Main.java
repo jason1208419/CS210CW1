@@ -6,7 +6,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] Arg) throws InterruptedException, IOException {
         //The filtering is into k files (only choose 2 or 3)
-        int k = 3;
+        int k = 4;
         SharedClass MySharedClass = new SharedClass(4, 80);
 
         Thread threadA = new ThreadA(MySharedClass);
